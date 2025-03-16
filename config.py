@@ -1,6 +1,6 @@
 # config.py
 import os
 
-SECRET_KEY = os.getenv("SECRET_KEY", "default_dev_key")
+SECRET_KEY = os.getenv("SECRET_KEY", "8346d7ce4a4aec66d73db1546bf134036f6a9f68713d053d39882ef62ea7043f")
 ALGORITHM = os.getenv("ALGORITHM", "HS256")
 ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "60"))
